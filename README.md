@@ -6,10 +6,10 @@ web-mind-editor is designed with two objectives
 Since the Freemind file format *.mm is a quasi standard for mind mapping 
 it heavily influences the data structures and features of web-mind-editor.
 
-##Key features
+## Key features
 - compatibilty: import and export of Freemind *.mm files
 
-##planned features
+## planned features
 - full history: save every modification in persistent data structures, append only
 - efficency: store thousands of nodes but only the currently visible data
 - versioning: direct access to any version in history
