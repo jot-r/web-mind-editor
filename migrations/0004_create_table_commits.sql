@@ -1,0 +1,11 @@
+-- +goose Up
+
+-- the tablename COMMITS needs to be plural because singular is a SQL keyword
+CREATE TABLE COMMITS(
+	COMMIT_ID TEXT PRIMARY KEY,
+	ROOT_NODE_ID TEXT NOT NULL REFERENCES NODE,
+	PARENT_COMMIT_ID TEXT REFERENCES COMMITS,
+	CREATED_TIMESTAMP bigint NOT NULL);
+				
+-- +goose Down
+DROP TABLE COMMITS;
