@@ -25,5 +25,7 @@ it heavily influences the data structures and features of web-mind-editor.
 - schema and query management: goose migrations + sqlc for queries
 - performance for Freemind import: streaming parsers, journal_mode=WAL
 - collaboration: path copying, three way merge
-- self contained application: Go compiler links statically by default, Go embed for goose migrations and assets
+- self contained application: 
+  - Go compiler links statically by default
+  - Go embed for goose migrations and assets
 - multi platform: cross compiling backend Go code and implement Vanilla Javacript frontend
