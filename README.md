@@ -10,6 +10,7 @@ it heavily influences the data structures and features of web-mind-editor.
 - compatibilty: import and export of Freemind *.mm files
 
 ## planned features
+- editor: support for adding, deleting and modifying nodes and their relations
 - full history: save every modification in persistent data structures, append only
 - efficency: store thousands of nodes but only the currently visible data
 - versioning: direct access to any version in history
