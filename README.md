@@ -12,8 +12,9 @@ it heavily influences the data structures and features of web-mind-editor.
 ## planned features
 - editor: support for adding, deleting and modifying nodes and their relations
 - full history: save every modification in persistent data structures, append only
-- efficency: store thousands of nodes but only the currently visible data
+- efficency: store thousands of nodes but load only the currently visible data
 - versioning: direct access to any version in history
-- concurrency: work with multiple users on the same document
+- collaboration: work with multiple users on the same document
+- concurrency: resolve conflicts which occur by concurrent changes
 - staging: changes need to be reviewed and accepted before a revision is created
 - compare: show the differences between changes, commits, revisions or documents
